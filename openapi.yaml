@@ -1,0 +1,99 @@
+  
+openapi: 3.1.0  
+info:  
+  title: Carruseles Instagram API  
+  version: "1.0.1"  
+  description: API para crear carruseles en Airtable desde GPTs, usando de 3 a 8 slides (slide de cierre obligatorio).  
+servers:  
+  \- url: https://api.airtable.com/v0/appG6w548Y47CGbxL  
+paths:  
+  /tblz5UYur84TxXRus:  
+    post:  
+      summary: Crear carrusel de Instagram  
+      operationId: createInstagramCarousel  
+      requestBody:  
+        required: true  
+        content:  
+          application/json:  
+            schema:  
+              type: object  
+              properties:  
+                records:  
+                  type: array  
+                  minItems: 1  
+                  maxItems: 5  
+                  items:  
+                    type: object  
+                    properties:  
+                      fields:  
+                        type: object  
+                        properties:  
+                          Título del Carrusel:  
+                            type: string  
+                          Introducción \- Título (Slide 1):  
+                            type: string  
+                          Introducción \- Subtítulo (Slide 1):  
+                            type: string  
+                          Introducción \- Texto (Slide 1):  
+                            type: string  
+                          Slide 2 \- Título:  
+                            type: string  
+                          Slide 2 \- Subtítulo:  
+                            type: string  
+                          Slide 2 \- Texto:  
+                            type: string  
+                          Slide 3 \- Título:  
+                            type: string  
+                          Slide 3 \- Subtítulo:  
+                            type: string  
+                          Slide 3 \- Texto:  
+                            type: string  
+                          Slide 4 \- Título:  
+                            type: string  
+                          Slide 4 \- Subtítulo:  
+                            type: string  
+                          Slide 4 \- Texto:  
+                            type: string  
+                          Slide 5 \- Título:  
+                            type: string  
+                          Slide 5 \- Subtítulo:  
+                            type: string  
+                          Slide 5 \- Texto:  
+                            type: string  
+                          Slide 6 \- Título:  
+                            type: string  
+                          Slide 6 \- Subtítulo:  
+                            type: string  
+                          Slide 6 \- Texto:  
+                            type: string  
+                          Slide 7 \- Título:  
+                            type: string  
+                          Slide 7 \- Subtítulo:  
+                            type: string  
+                          Slide 7 \- Texto:  
+                            type: string  
+                          Slide Cierre \- Título (Última Slide):  
+                            type: string  
+                          Slide Cierre \- Subtítulo (Última Slide):  
+                            type: string  
+                          Slide Cierre \- Texto (Última Slide):  
+                            type: string  
+                          Idea Visual General:  
+                            type: string  
+                          Segmento (Buyer/Campaña):  
+                            type: string  
+                          Tipo de Publicación:  
+                            type: string  
+                          Número de Slides:  
+                            type: integer  
+      responses:  
+        '200':  
+          description: Carrusel creado correctamente.  
+components:  
+  securitySchemes:  
+    BearerAuth:  
+      type: http  
+      scheme: bearer  
+security:  
+  \- BearerAuth: \[\]
+
