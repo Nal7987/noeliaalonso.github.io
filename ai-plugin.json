@@ -1,19 +1,20 @@
-{  
-  "schema\_version": "v1",  
-  "name\_for\_human": "Carruseles Instagram GPT",  
-  "name\_for\_model": "createInstagramCarousel",  
-  "description\_for\_human": "Crea carruseles de 3 a 8 slides y guárdalos en Airtable automáticamente.",  
-  "description\_for\_model": "Usa esta API para crear carruseles de Instagram con hasta 8 slides (incluyendo cierre obligatorio) y guardar los datos en Airtable.",  
-  "auth": {  
-    "type": "user\_http",  
-    "authorization\_type": "bearer"  
-  },  
+{
+  "schema_version": "v1",
+  "name_for_human": "Carruseles Instagram GPT",
+  "name_for_model": "createInstagramCarousel",
+  "description_for_human": "Crea carruseles de 3 a 8 slides y guárdalos en Airtable automáticamente.",
+  "description_for_model": "Usa esta API para crear carruseles de Instagram con hasta 8 slides (incluyendo cierre obligatorio) y guardar los datos en Airtable.",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
   "api": {
-  "type": "openapi",
-  "url": "https://raw.githubusercontent.com/nal7987/noeliaalonso.github.io/main/openapi.yaml"
-},  
-  "logo\_url": "https://onecdn.io/media/c858eb9e-4065-4265-bd89-59792db55f83/md2x",  
-  "contact\_email": "hola@noeliaalonso.com",  
-  "legal\_info\_url": "https://interesting-hospital-139.notion.site/Pie-legal-correo-electr-nico-1787ccbd2c4c81ed82add6f25b4f99ba?pvs=4"  
+    "type": "openapi",
+    "url": "https://raw.githubusercontent.com/nal7987/noeliaalonso.github.io/main/openapi.yaml"
+  },
+  "logo_url": "https://onecdn.io/media/c858eb9e-4065-4265-bd89-59792db55f83/md2x",
+  "contact_email": "hola@noeliaalonso.com",
+  "legal_info_url": "https://interesting-hospital-139.notion.site/Pie-legal-correo-electr-nico-1787ccbd2c4c81ed82add6f25b4f99ba?pvs=4"
 }
+
 
