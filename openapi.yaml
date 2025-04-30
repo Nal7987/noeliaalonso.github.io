@@ -2,7 +2,7 @@
 info:
   title: Carruseles Instagram API
   version: "1.0.0"
-  description: API para crear carruseles visuales en Airtable desde GPTs, de 3 a 8 slides incluyendo slide de cierre obligatorio.
+  description: API para crear carruseles visuales en Airtable desde GPTs.
 servers:
   - url: https://api.airtable.com/v0/appG6w548Y47CGbxL
 paths:
@@ -29,11 +29,13 @@ paths:
                         properties:
                           "Título del Carrusel":
                             type: string
-                          "Introducción - Título Slide 1":
+                          "Tipo de Publicación":
                             type: string
-                          "Introducción - Subtítulo Slide 1":
+                          "Número de Slides":
+                            type: integer
+                          "Segmento Buyer/Campaña":
                             type: string
-                          "Introducción - Texto Slide 1":
+                          "Idea Visual General":
                             type: string
                           "Slide Cierre - Título Última Slide":
                             type: string
@@ -41,17 +43,15 @@ paths:
                             type: string
                           "Slide Cierre - Texto Última Slide":
                             type: string
-                          "Idea Visual General":
+                          "Introducción - Título Slide 1":
                             type: string
-                          "Segmento Buyer/Campaña":
+                          "Introducción - Subtítulo Slide 1":
                             type: string
-                          "Tipo de Publicación":
+                          "Introducción - Texto Slide 1":
                             type: string
-                          "Número de Slides":
-                            type: integer
       responses:
         '200':
-          description: Carrusel creado correctamente.
+          description: Carrusel creado
 components:
   securitySchemes:
     BearerAuth:
