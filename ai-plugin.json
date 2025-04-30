@@ -8,10 +8,10 @@
     "type": "user\_http",  
     "authorization\_type": "bearer"  
   },  
-  "api": {  
-    "type": "openapi",  
-    "url": "https://noeliaalonso.onepage.me/openapi.yaml"  
-  },  
+  "api": {
+  "type": "openapi",
+  "url": "https://nal7987.github.io/noeliaalonso.github.io/openapi.yaml"
+},  
   "logo\_url": "https://onecdn.io/media/c858eb9e-4065-4265-bd89-59792db55f83/md2x",  
   "contact\_email": "hola@noeliaalonso.com",  
   "legal\_info\_url": "https://interesting-hospital-139.notion.site/Pie-legal-correo-electr-nico-1787ccbd2c4c81ed82add6f25b4f99ba?pvs=4"  
