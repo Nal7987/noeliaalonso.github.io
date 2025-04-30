@@ -10,7 +10,7 @@
   },  
   "api": {
   "type": "openapi",
-  "url": "https://nal7987.github.io/noeliaalonso.github.io/openapi.yaml"
+  "url": "https://raw.githubusercontent.com/nal7987/noeliaalonso.github.io/main/openapi.yaml"
 },  
   "logo\_url": "https://onecdn.io/media/c858eb9e-4065-4265-bd89-59792db55f83/md2x",  
   "contact\_email": "hola@noeliaalonso.com",  
